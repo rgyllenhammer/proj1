@@ -1,0 +1,7 @@
+<%= form_tag create_pokemon_path do %>
+
+  <%= label_tag(:name, "Pokemon Name") %>
+  <%= text_field_tag(:name, nil, placeholder: "eg: squirtle") %>
+
+  <%= submit_tag("Create a pokemon") %>
+<% end %>
